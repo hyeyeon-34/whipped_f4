@@ -44,7 +44,6 @@ const Skin = () => {
   }, []);
   // 피부 타입별 이미지 클릭 시 해당 페이지로 이동하는 함수
   const openProduct = (id) => {
-    // Use navigate to go to the product detail page
     navigate(`/product_detail/${id}`);
   };
 
