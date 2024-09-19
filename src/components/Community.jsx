@@ -18,7 +18,7 @@ const Community = () => {
       setWrite(texts)
       console.log(write);
     })
-  })
+  }, [])
 
 
   return (
@@ -37,10 +37,10 @@ const Community = () => {
             <div className='contents-container'>
               <div>
                 <div className='contents-basis'>
-                  <p className='number'>번호</p>
-                  <p className='basis-title'>제목</p>
-                  <p className='author'>작성자</p>
-                  <p className='date'>작성일자</p>
+                  <p className='number'>{write[0].write_number}</p>
+                  <p className='basis-title'>{write[0].write_title}</p>
+                  <p className='author'>{write[0].userid}</p>
+                  <p className='date'>{write[0].write_date}</p>
                   <p className='views'>조회</p>
                 </div>
                 <div className='contents-upload'>내용이 없습니다.</div>
@@ -60,8 +60,8 @@ const Community = () => {
             </div>
             <div className='contents-footer'>
               <select className='footer-dropdown'>
-                <option value="title">제목</option>
-                <option value="author">작성자</option>
+                <option value="title">{write[0].write_title}</option>
+                <option value="author">{write[0].userid}</option>
               </select>
 
               <input 
