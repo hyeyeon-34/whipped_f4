@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import './Community.css';
+import axios from 'axios';
 
 const Community = () => {
   // const [currentPage, setCurrentPage] = useState(1);
