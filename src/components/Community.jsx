@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import './Community.css';
 
@@ -9,6 +9,15 @@ const Community = () => {
   // };
   // const totalPages = Math.ceil(contents.length / itemsPerPage);
   // const [contents, setcontents] = useState([]);
+  const [write, setWrite] = useState([])
+
+  useEffect(()=>{
+    axios.get(`https://whippedb4.hyee34.site/community_announcement`).then((response) => {
+      const texts =response.data;
+      setWrite(texts)
+      console.log(write);
+    })
+  })
 
 
   return (
