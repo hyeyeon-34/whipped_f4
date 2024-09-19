@@ -16,10 +16,10 @@ Whipped는 친환경 제품을 판매하는 쇼핑몰 웹사이트입니다. 이
    git clone https://github.com/hyeyeon-34/whipped_f4.git
    cd whipped_f4
 
-2. 의존성 설치
+2. **의존성 설치**
    npm install
 
-3. 서버 실행
+3. **서버 실행**
    npm start
 
 
