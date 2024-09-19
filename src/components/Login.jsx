@@ -31,7 +31,7 @@ const Login = () => {
     console.log(values);
 
     axios
-      .post('http://localhost:8080/login', values)
+      .post('https://whippedb4.hyee34.site/login', values)
       .then((res) => {
         if (res.status === 201) {
           console.log(res);

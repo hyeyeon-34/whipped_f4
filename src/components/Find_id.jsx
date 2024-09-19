@@ -16,7 +16,7 @@ const FindId = () => {
             return alert('이름과 이메일을 모두 입력해주세요.');
         }
 
-        axios.post('http://localhost:8080/findUser', {
+        axios.post('https://whippedb4.hyee34.site/findUser', {
             name: values.name,
             email: values.email,
         })

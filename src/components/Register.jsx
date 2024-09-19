@@ -109,7 +109,7 @@ const Register = () => {
     }
 
     axios
-      .post('http://localhost:8080/register', values)
+      .post('https://whippedb4.hyee34.site/register', values)
       .then((res) => {
         if (res.status === 201) {
           navigate('/login');
