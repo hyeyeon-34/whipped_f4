@@ -3,14 +3,14 @@
 **Whipped**는 친환경 원료들을 사용한 폼클렌징을 구매할 수 있는 사이트이며, 개인에 맞게 성분 조합을 바꿀 수 있는 DIY 상품도 판매합니다.
 
 ---
-## 🚀 기능
+##  기능
 - 제품 목록 보기
 - 장바구니에 제품 추가 및 제거
 - 주문 및 결제 기능
 
 ---
 
-## 사용된 기술 🛠️
+## 사용된 기술 🛠
 - **프론트엔드**: React 
 - **백엔드**: Node.js, Express
 - **데이터베이스**: PostgreSql
@@ -44,12 +44,12 @@
 
 ## 에러 및 문제 해결 
 
-### 🚨 Uncaught SyntaxError: Unexpected token <
+### Uncaught SyntaxError: Unexpected token <
 - 문제: 페이지를 새로고침할 때 404 에러가 발생하며, Uncaught SyntaxError: Unexpected token < 에러가 표시됩니다. 이 에러는 JavaScript 파일을 로드할 때 HTML 파일이 반환되어 < 기호를 JavaScript 문법으로 인식하지 못하는 경우 발생합니다.
 - 해결 방법: index.html에
     base href='/' / 태그를 추가하여 브라우저가 모든 상대 경로를 루트 디렉토리를 기준으로 해석하도록 설정했습니다.
 
-### 🌐 404 에러 발생
+### 404 에러 발생
 - 문제: 페이지를 새로고침할 때 404 에러가 발생합니다. 이는 서버가 JavaScript 파일 대신 HTML 파일을 반환하는 경우 발생할 수 있습니다.
 - 해결 방법: nginx.conf라는 파일을 만들어 그 안에 페이지를 새로고침할 때, 요청된 경로가 존재하는지 여부를 먼저 확인하기 위해 Nginx 웹 서버에 index.html 파일을 먼저 보도록 설정
 
