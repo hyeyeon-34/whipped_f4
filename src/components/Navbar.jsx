@@ -37,14 +37,14 @@ const Navbar = () => {
         >
           Shop
         </p>
-        <p
+        {/* <p
           onClick={() => {
             navigate('/community');
             setIsOpen(false);
           }}
         >
           Notice
-        </p>
+        </p> */}
       </div>
       {/* <div className="hamburger" onClick={toggleMenu}>
         <div className="bar"></div>
