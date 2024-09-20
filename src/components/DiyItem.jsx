@@ -99,9 +99,11 @@ const checkDiyInCart = async (userId, productId, selectedOptions) => {
         alert('제품을 찾을 수 없습니다.');
         return;
     }
-    if (selectedOptions.length === 0) {
-        alert('옵션을 선택해주세요.');
+    if (selectedOptions.length < 2) {
+        alert('옵션을 2개 이상 선택해주세요.');
         return;
+
+    
     }
     
     const existingItem = await checkDiyInCart(userId, item.product_id, selectedOptions);
