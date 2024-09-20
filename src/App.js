@@ -14,6 +14,7 @@ import Community from './components/Community';
 import DiyItem from './components/DiyItem';
 import Find_pw from './components/Find_pw';
 import Find_id from './components/Find_id';
+import NoticeDetail from './components/NoticeDetail';
 
 function App() {
   return (
