@@ -47,7 +47,7 @@
 ### 🚨 Uncaught SyntaxError: Unexpected token <
 - 문제: 페이지를 새로고침할 때 404 에러가 발생하며, Uncaught SyntaxError: Unexpected token < 에러가 표시됩니다. 이 에러는 JavaScript 파일을 로드할 때 HTML 파일이 반환되어 < 기호를 JavaScript 문법으로 인식하지 못하는 경우 발생합니다.
 - 해결 방법: index.html에
-  "<base href='/' />" 태그를 추가하여 브라우저가 모든 상대 경로를 루트 디렉토리를 기준으로 해석하도록 설정했습니다.
+    base href='/' / 태그를 추가하여 브라우저가 모든 상대 경로를 루트 디렉토리를 기준으로 해석하도록 설정했습니다.
 
 ### 🌐 404 에러 발생
 - 문제: 페이지를 새로고침할 때 404 에러가 발생합니다. 이는 서버가 JavaScript 파일 대신 HTML 파일을 반환하는 경우 발생할 수 있습니다.
