@@ -61,7 +61,7 @@
 whipped_f4/
 ├── public/                 # 공개된 파일 및 리소스
 ├── src/
-│   ├── components/         # 재사용 가능한 컴포넌트들 (예: Header, ProductCard)
+│   ├── components/         # 재사용 가능한 컴포넌트들 
 │   ├── redux/              # Redux 슬라이스와 스토어 설정
 │   ├── App.js              # 메인 앱 컴포넌트
 │   └── index.js            # React 진입점
