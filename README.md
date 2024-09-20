@@ -63,7 +63,6 @@ whipped_f4/
 ├── src/
 │   ├── components/         # 재사용 가능한 컴포넌트들 (예: Header, ProductCard)
 │   ├── redux/              # Redux 슬라이스와 스토어 설정
-│   ├── services/           # API 서비스 호출 (예: Axios 설정)
 │   ├── App.js              # 메인 앱 컴포넌트
 │   └── index.js            # React 진입점
 ├── package.json            # 프로젝트 메타데이터 및 스크립트
