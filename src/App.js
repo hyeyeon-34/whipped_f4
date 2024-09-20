@@ -34,6 +34,7 @@ function App() {
           <Route path="/product_detail/:productId" element={<ProductDetail />} />
           <Route path="/diyitem" element={<DiyItem/>} />
           <Route path="/community" element={<Community/>} />
+          <Route path="/notice_detail/:write_number" element={<NoticeDetail />} />
         </Routes>
       </div>
     </BrowserRouter>
